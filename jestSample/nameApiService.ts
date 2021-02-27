@@ -16,4 +16,10 @@ export class NameApiService {
 
     return firstName;
   }
+  /**
+   * getMAX_LENGTH
+   */
+  public getMaxLength(): number {
+    return this.MAX_LENGTH;
+  }
 }
